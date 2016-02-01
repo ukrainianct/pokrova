@@ -1,0 +1,37 @@
+/* It is recommended to place all your extra/additional CSS rules here */
+@font-face {
+    font-family: 'church'; /*a name to be used later*/
+    src: url('../../fonts/Roman_SD.ttf'); /*URL to font*/
+}
+.logo-text{
+	text-align: center;
+	padding-top: 5%;
+	padding-right: 0;
+}
+.church-font{
+	font-family: 'church';
+}
+@media (max-width: 768px) {
+	#left-sidebar .logo {
+		display: none;
+	}
+	.logo-text{
+		display:none;
+	}
+}
+.church-upper{
+	text-transform: uppercase;
+	color: #A0BEE4;
+	font-weight: bolder;
+}
+#left-sidebar #main-menu {
+	font-family: 'church', 'open_sanslight', sans-serif;
+	font-size: 90%;
+}
+
+#left-sidebar #main-menu > li.menu-item.active > * {
+	font-family: 'church', 'open_sanslight', sans-serif;
+	font-size: 120%;
+	font-weight: bold;
+	background:rgba(0,0,0,0.15);
+}
