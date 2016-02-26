@@ -383,6 +383,11 @@ function set_section_to_active(target_section_id, clicked_menu_item_id, called_o
         var overlay_opacity_value = $("body").attr("data-overlay-opacity");
         var overlay_opacity = (overlay_opacity_value !== undefined && overlay_opacity_value != "") ? parseFloat(overlay_opacity_value) : 0.35;
 
+/* custom code */
+			if($(target_section_id).attr("data-overlay-opacity") != undefined)
+				overlay_opacity = parseFloat($(target_section_id).attr("data-overlay-opacity"));
+/*-------------*/
+			
         // ------ change custom background ------
         if ( change_background != false && change_bg_check() ){
             var section_custom_background_attr = section_wrapper.attr("data-custom-background-img");

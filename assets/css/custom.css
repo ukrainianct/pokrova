@@ -35,3 +35,7 @@
 	font-weight: bold;
 	background:rgba(0,0,0,0.15);
 }
+
+.grid-background{
+	background: rgba(0,0,0,0.4);
+}
