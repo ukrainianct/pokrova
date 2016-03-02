@@ -39,3 +39,25 @@
 .grid-background{
 	background: rgba(0,0,0,0.4);
 }
+
+#main-content .grid .grid-item {
+	padding-top:0px;
+	padding-bottom:0px; 
+	border-bottom: 1px solid white;
+}
+@media (min-width: 768px) {
+	#main-content .grid .grid-item {
+		padding-top:0px;
+		padding-bottom:0px; 
+		border-bottom: 1px solid white;   
+	}
+}
+.liturgies-day{
+	border-top: 1px solid #fff;
+}
+.liturgies-hour{
+	font-weight: bold;
+}
+.nowrap{
+	 white-space: nowrap;
+}
